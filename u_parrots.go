@@ -956,7 +956,7 @@ func utlsIdToSpec(id ClientHelloID) (ClientHelloSpec, error) {
 				&SNIExtension{},
 				BoringGREASEECH(),
 				&UtlsGREASEExtension{},
-				&UtlsPreSharedKeyExtension{},
+				// &UtlsPreSharedKeyExtension{},
 			},
 		}, nil
 	case HelloChrome_133:
